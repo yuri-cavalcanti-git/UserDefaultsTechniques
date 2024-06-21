@@ -1,6 +1,6 @@
 import Foundation
 
-struct ErrorCase: Error {
+struct ErrorCase: Error, Equatable {
     let type: ErrorType
     let message: String
     

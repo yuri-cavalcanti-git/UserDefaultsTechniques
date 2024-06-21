@@ -1,5 +1,5 @@
 import Foundation
 
-struct Product: Codable {
+struct Product: Codable, Equatable {
     let name: String
 }
