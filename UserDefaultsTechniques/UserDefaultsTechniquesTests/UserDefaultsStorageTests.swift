@@ -36,7 +36,7 @@ final class UserDefaultsStorageTests: QuickSpec {
                 }
                 it ("Tentar fazer este teste") {
                     let dict = try? sut.fetchInfo()
-//                    expect(dict) == ["": .stub()]
+                    expect(dict) == ["": .stub()]
                 }
             }
         }
